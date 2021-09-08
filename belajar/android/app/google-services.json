@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900853840903",
+    "firebase_url": "https://todolist-258e4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "todolist-258e4",
+    "storage_bucket": "todolist-258e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900853840903:android:7fb591dfa2f56079c9bea2",
+        "android_client_info": {
+          "package_name": "com.example.belajar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900853840903-nsk48qug7ejpj5h4e4lb1fq59ok4ef5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7lYhLaJ5Vsuq36aPn_By0cH_R2Ku8Nlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900853840903-nsk48qug7ejpj5h4e4lb1fq59ok4ef5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
