@@ -1,9 +1,13 @@
+import 'package:belajar/repository/database.dart';
+import 'package:firebase_database/firebase_database.dart';
+
 class TodoList {
-  DateTime? deadline;
   final String task;
   final String by;
+  DateTime? deadline;
+  
 
-  TodoList(this.deadline,this.task,this.by);
+  TodoList(this.task,this.by,this.deadline);
 
   Map<String,dynamic> ToJson(){
     return {

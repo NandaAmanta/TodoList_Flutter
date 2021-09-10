@@ -1,14 +1,11 @@
 
-// import 'package:belajar/repository/Todolist_repository.dart';
-// import 'package:belajar/model/Todolist_model.dart';
+import 'package:belajar/model/Todolist_model.dart';
+import 'package:belajar/repository/Todolist_repository.dart';
 
+class TodolistServie{
 
-// class TodoListService{
+    Future <List<TodoList>> getTodosList() async{
+      return TodoListRepo().getDataTask();
+    }
 
-//   Future<List> getAllTask() async{
-//     Future<List<Map>> data =  TodoListRepo().getDataTask();
-    
-//     return data;
-//   }
-
-// }
+}
